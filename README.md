@@ -1,0 +1,14 @@
+# cheetah-user 13 TQ3A.230805.001.A2 10385117 release-keys
+- manufacturer: google
+- platform: gs201
+- codename: cheetah
+- flavor: cheetah-user
+- release: 13
+- id: TQ3A.230805.001.A2
+- incremental: 10385117
+- tags: release-keys
+- fingerprint: google/cheetah/cheetah:13/TQ3A.230805.001.A2/10385117:user/release-keys
+- is_ab: true
+- brand: google
+- branch: cheetah-user-13-TQ3A.230805.001.A2-10385117-release-keys
+- repo: google_cheetah_dump
