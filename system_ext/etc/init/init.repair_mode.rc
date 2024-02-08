@@ -1,0 +1,17 @@
+# Copyright 2023 Google Inc. All Rights Reserved.
+
+on early-init && property:ro.gsid.dsu_slot=repairmode.lock
+    # Skip SUW in repair mode
+    setprop ro.setupwizard.mode DISABLED
+
+on post-fs
+    mkdir /metadata/repair-mode 0770 root system
+
+on boot && property:ro.gsid.dsu_slot=repairmode.lock
+    # Turn off modem logs to save space
+    setprop persist.vendor.sys.modem.logging.enable false
+
+on boot && property:ro.gsid.image_running=0
+    # Nothing to do in normal mode.
+    # Just set the property to indicate initialization is completed
+    setprop sys.repair_mode.init_completed true
