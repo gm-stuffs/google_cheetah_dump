@@ -1,0 +1,2 @@
+com.google.pixel.camera.services.binder.IServiceBinder/default u:object_r:camera_binder_service:s0
+telephony.oem.oemrilhook        u:object_r:radio_service:s0
