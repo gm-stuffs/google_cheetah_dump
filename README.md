@@ -1,0 +1,14 @@
+# cheetah-user 14 AP1A.240505.005 11677807 release-keys
+- manufacturer: google
+- platform: gs201
+- codename: cheetah
+- flavor: cheetah-user
+- release: 14
+- id: AP1A.240505.005
+- incremental: 11677807
+- tags: release-keys
+- fingerprint: google/cheetah/cheetah:14/AP1A.240505.005/11677807:user/release-keys
+- is_ab: true
+- brand: google
+- branch: cheetah-user-14-AP1A.240505.005-11677807-release-keys
+- repo: google_cheetah_dump
